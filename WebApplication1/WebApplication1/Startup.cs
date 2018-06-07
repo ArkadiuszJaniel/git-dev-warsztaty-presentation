@@ -15,7 +15,7 @@ namespace WebApplication1
     {
         public void Configuration(IAppBuilder app)
         {
-          
+            ConfigureAuth(app);
         }
 
         public void Configuration(IAppBuilder app)
