@@ -11,4 +11,11 @@ namespace WebApplication1
             ConfigureAuth(app);
         }
     }
+      public partial class Startup2
+    {
+        public void Configuration(IAppBuilder app)
+        {
+            ConfigureAuth(app);
+        }
+    }
 }
